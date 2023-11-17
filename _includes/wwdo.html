@@ -1,0 +1,137 @@
+<div class="bg-white">
+    <div class="text-center mt-4 py-3">
+        <h2 class="fw-bold">What Do We do ?</h2>
+    </div>
+
+    <div class="container text-center">
+        <div class="row p-2">
+            <div class="col-md-4 mb-5 bg-white" data-aos="fade-down-left">
+                <h3 class="fw-bold">Aquaculture Training</h3>
+                <p class="text-danger" style="line-height: 150%;">
+                    EEN Fish Farms trains inidividuals who are willing to venture into fish farming
+                   <span class="collapse" id="collapse1"> 
+                        their basic training to guide them set up and attain success in theire fish farming
+                        journey. We also have advanced training on catfish hatchery where we take individuals
+                        through appropriate hatching techniques and management practices that yieds maximum result.
+                    </span>
+                    <div x-data="{open: false}">
+                        <a 
+                        class="text-dark" 
+                        data-bs-toggle="collapse" 
+                        href="#collapse1" role="button" 
+                        aria-expanded="false" aria-controls="collapse1"
+                        @click="open = ! open">
+                        <p x-show="open">less</p>
+                        <p x-show="!open">more</p>
+                        </a>
+                    </div>
+                </p>
+                <div class="text-center">
+                    <img class="img" src="/assets/img/training.svg" width="200px" alt="aquaculture classroom">
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-5 p-2 bg-white" data-aos="fade-down-left">
+                <h3 class="fw-bold text-danger">Fingerling Sales</h3>
+                <p class="text-dark" style="line-height: 150%;">
+                    We have in stock both clarias gariepinus and hybrids that are raised
+                    <span class="collapse" id="collapse2">
+                        under hygienic and proper management practices to boost growth and development.
+                        At the moment these are the fishes prices.
+                        <table class="table table-hover text-center">
+                            <thead>
+                              <tr>
+                                <th scope="col">Fish</th>
+                                <th scope="col">Price</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Fingerlings</td>
+                                <td>GHC 1.00</td>
+                              </tr>
+                              <tr>
+                                <td>Juviniles</td>
+                                <td>GHC 1.50</td>
+                              </tr>
+                              <tr>
+                                <td>Post Juviniles</td>
+                                <td>GHC 1.80</td>
+                              </tr>
+                              <tr>
+                                <td>Jumbo</td>
+                                <td>GHC 2.50p</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </span>
+                    <div x-data="{open: false}">
+                        <a 
+                        class="text-danger" 
+                        data-bs-toggle="collapse" 
+                        href="#collapse2" role="button" 
+                        aria-expanded="false" aria-controls="collapse2"
+                        @click="open = ! open">
+                        <p x-show="open">less</p>
+                        <p x-show="!open">more</p>
+                        </a>
+                    </div>
+                    
+                </p>
+                <div class="container mx-auto">
+                    <img class="img" src="/assets/img/hatch.svg" width="200px" alt="aquaculture classroom">
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-5 p-2 bg-white" data-aos="fade-down-left">
+                <h3 class="fw-bold">Pond Construction</h3>
+                <p class="text-danger" style="line-height: 150%;">
+                    There are basically 3 types of ponds that one can use to start their catfish
+                    <span class="collapse" id="collapse3">
+                        farming. We have the concrete/block pond, plastic pond and earthen/dugout.
+                        Pond selection for fish farming is based on availability of land space,
+                        nature of land and amount a client is willing to invest into the fish farming.
+                    </span>
+                    <div x-data="{open: false}">
+                        <a 
+                        class="text-dark" 
+                        data-bs-toggle="collapse" 
+                        href="#collapse3" role="button" 
+                        aria-expanded="false" aria-controls="collapse3"
+                        @click="open = ! open">
+                        <p x-show="open">less</p>
+                        <p x-show="!open">more</p>
+                        </a>
+                    </div>
+                </p>
+                <div class="container mx-auto">
+                    <img class="img" src="/assets/img/fishing.svg" width="200px" alt="aquaculture classroom">
+                </div>
+            </div>
+
+            <div class="col-md-4 p-2 mb-5 bg-white" data-aos="fade-down-left">
+                <h3 class="fw-bold text-danger">Consultation</h3>
+                <p style="line-height: 150%;" class="">
+                    We offer consultation services on selection of pond types, breed of catfishes
+                    <span class="collapse" id="collapse4">
+                        to select based on your pond types and general consultations on catfish farming.
+                    </span>
+                    <div x-data="{open: false}">
+                        <a 
+                        class="text-danger" 
+                        data-bs-toggle="collapse" 
+                        href="#collapse4" role="button" 
+                        aria-expanded="false" aria-controls="collapse4"
+                        @click="open = ! open">
+                        <p x-show="open">less</p>
+                        <p x-show="!open">more</p>
+                        </a>
+                    </div>
+                </p>
+                <div class="container mx-auto">
+                    <img class="img" src="/assets/img/consult.svg" width="200px" alt="aquaculture classroom">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,6 @@
+.vscode
+.jekyll-cache
+_site
+
+#ignore node modules
+node_modules

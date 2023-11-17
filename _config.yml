@@ -1,0 +1,10 @@
+title: Your awesome website
+description: >- # This means ignore newlines until "baseurl;"
+  Welcome to een fish farm official website
+
+baseurl: "" #
+url: "" #
+
+
+plugins:
+  - jekyll-feed
