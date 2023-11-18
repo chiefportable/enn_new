@@ -1,10 +1,11 @@
 <div class="p-5 text-center bg-light hero">
     <div class="overlay">
-        <h1 class="mt-5 mb-3 text-white display-2 fw-bold">Welcome to EEN FISH FARM OFFICIAL WEBSITE</h1>
+        <h1 class="mt-5 mb-3 text-white display-2 fw-bold playsc">{{ "welcome to EEN FISH FARM OFFICIAL WEBSITE" | upcase }}</h1>
         <h4 class="mb-3 text-white">we are your number stop shop for catfishes</h4>
     </div>
 
-    <div class="my-5 d-flex align-items-center justify-content-center">
-        <button type="button" class="btn btn-danger w-auto">Contact Us</button>
+    <div class="my-5 align-items-center justify-content-center">
+        <a href="tel:+233554243932" type="button" class="btn btn-danger w-auto fw-bold mx-2"> {{"+233 554 243 932"}} </a>
+        <a href="tel:+233554243932" type="button" class="btn btn-danger w-auto fw-bold"> {{"contact us" | capitalize }} </a>
     </div>
 </div>
