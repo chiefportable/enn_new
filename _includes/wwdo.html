@@ -9,7 +9,7 @@
                 <p class="text-danger mx-sm-5" style="line-height: 150%;">
                     EEN Fish Farms trains inidividuals who are willing to venture into fish farming
                    <span class="collapse" id="collapse1"> 
-                        their basic training to guide them set up and attain success in theire fish farming
+                        their basic training to guide them set up and attain success in their fish farming
                         journey. We also have advanced training on catfish hatchery where we take individuals
                         through appropriate hatching techniques and management practices that yieds maximum result.
                     </span>
@@ -36,7 +36,20 @@
                     We have in stock both clarias gariepinus and hybrids that are raised
                     <span class="collapse" id="collapse2">
                         under hygienic and proper management practices to boost growth and development.
-                        At the moment these are the fishes prices.
+                        At the moment these are the fish prices.
+
+                        <div x-data="{open: false}">
+                            <a 
+                            class="text-danger" 
+                            data-bs-toggle="collapse" 
+                            href="#collapse2" role="button" 
+                            aria-expanded="false" aria-controls="collapse2"
+                            @click="open = ! open">
+                            <p x-show="open">less</p>
+                            <p x-show="!open">more</p>
+                            </a>
+                        </div>
+
                         <table class="table table-hover text-center">
                             <thead>
                               <tr>
@@ -64,18 +77,6 @@
                             </tbody>
                           </table>
                     </span>
-                    <div x-data="{open: false}">
-                        <a 
-                        class="text-danger" 
-                        data-bs-toggle="collapse" 
-                        href="#collapse2" role="button" 
-                        aria-expanded="false" aria-controls="collapse2"
-                        @click="open = ! open">
-                        <p x-show="open">less</p>
-                        <p x-show="!open">more</p>
-                        </a>
-                    </div>
-                    
                 </p>
                 <div class="container mx-auto">
                     <img class="img" src="/assets/img/hatch.svg" width="200px" alt="aquaculture classroom">
