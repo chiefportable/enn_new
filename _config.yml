@@ -1,6 +1,10 @@
-title: Your awesome website
+title: een fish farm
+
+keywords: >- # website keywords
+  catfish, fish farm, eenfishfarm, website, consulting, pond, fingerlings, acquaculture, farm 
+
 description: >- # This means ignore newlines until "baseurl;"
-  Welcome to een fish farm official website
+  This is the the official website for een fish farm
 
 baseurl: "" #
 url: "" #
