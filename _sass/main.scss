@@ -39,3 +39,17 @@ html,body{
     text-decoration: none;
     color: black;
 }
+
+.tipe{
+    color: #f1f1f1;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  
+  .wrap {
+    
+    &::after {
+      content: "";
+      border: 1px solid #fff;
+    }
+  }
