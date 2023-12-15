@@ -7,7 +7,7 @@ author: Gifty
 ##### 🐟🎣 Attention all catfish enthusiasts and fish farmers! 🐟🎣
 
 
-<img class="my-5 img-fluid" src="/assets/img/landimg.jpg" width="700px"/>
+<img class="my-5 img-fluid text-center align-items-center" src="/assets/img/landimg.jpg" width="700px"/>
 
 
 Looking for top-quality catfish fingerlings? Look no further! We have a special offer just for you. Get 10,000 healthy and vibrant catfish fingerlings for only 7500gh! 🐠💰
