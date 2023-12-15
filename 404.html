@@ -4,4 +4,18 @@ layout: default
 title: page node found
 ---
 
-<h1>Sorry Page Not Found</h1>
+<div>
+    {%- include header.html -%}
+</div>
+
+<div class="container text-center my-5 py-5">
+    <img class="text-danger" src="/assets/img/404.svg" alt="404 error page" style="width: 400px;">
+</div>
+
+<div class="text-center fw-bold mb-5">
+    <h1>PAGE NOT FOUND</h1>
+</div>
+
+<div>
+    {%- include footer.html -%}
+</div>

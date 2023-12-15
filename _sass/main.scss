@@ -57,3 +57,37 @@ html,body{
   .text-deco{
     text-decoration: none;
   }
+
+  .button{
+    display: inline-flex;
+    cursor: pointer;
+    text-decoration: none;
+    padding: .75rem 1.5rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #0f0f0f;
+    transition: all .2s ease-in-out;
+    background-color: #ccff50;
+    border: 1px solid #0f0f0f;
+    box-shadow: 6px 6px 0 #0f0f0f;
+    border-radius: 4px;
+    position: relative;
+    top: -6px;
+    left: -6px;
+}
+
+.button:hover{
+    position: relative;
+    top: -4px;
+    left: -4px;
+    box-shadow: unset;
+}
+
+
+ul li{
+    list-style: none;
+}
+
+#content-container{
+    padding: 0 60px;
+}
