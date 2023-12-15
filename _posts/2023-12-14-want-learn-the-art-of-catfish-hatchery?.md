@@ -6,6 +6,9 @@ author: Gifty
 ##### 🎣 "Hey, fish enthusiasts! 🐟 Want to learn the art of catfish hatchery? Dive into our teaching catfish hatchery in Winneba, Ghana! 🌍
 
 
+<img class="my-5" src="/assets/img/learnimg.jpg" width="700px"/>
+
+
 📚 Join us for an immersive and hands-on experience where you'll discover the secrets of successful catfish breeding and rearing. 🐠 Our knowledgeable instructors will guide you through the entire process, from selecting the best broodstock to caring for the tiny fry. 🌱
 
 

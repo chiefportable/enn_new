@@ -3,7 +3,12 @@ layout: post
 author: Gifty
 ---
 
+
 ##### 🐟🎣 Attention all catfish enthusiasts and fish farmers! 🐟🎣
+
+
+<img class="my-5" src="/assets/img/landimg.jpg" width="700px"/>
+
 
 Looking for top-quality catfish fingerlings? Look no further! We have a special offer just for you. Get 10,000 healthy and vibrant catfish fingerlings for only 7500gh! 🐠💰
 
@@ -21,7 +26,7 @@ Why choose us?
 Don't miss out on this amazing opportunity to boost your catfish farming business. Place your order today and watch your profits soar! 📈🐟
 
 
-To place an order or inquire further, simply send us a message or give us a call at 0246877365 0554243932. We're here to help you succeed in your catfish farming venture!
+To place an order or inquire further, simply send us a message or give us a <span class="fw-bold"> call at 0246877365 0554243932 </span>. We're here to help you succeed in your catfish farming venture!
 
 
 Happy fishing! 🐠🎣"
