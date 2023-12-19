@@ -4,17 +4,18 @@ layout: default
 <div>
     {%- include header.html -%}
 </div>
-<div class="container">
-    <div id="content-container">
-        <div class="wrapper px-md-2 mx-md-2">
-            <h2 class="mx-md-2 mt-5 fw-bold"> {{ page.title }} </h2>
-            <p class="mx-md-2 mb-3"> {{ page.date | date_to_string }} - {{ page.author }} </p>
-            <div class="mx-md-2" style="line-height: 250%;">
-                {{ content }}
-            </div>
-        </div>
+
+<div>
+    <div id="header">
+        <h2> {{ page.title }} </h2>
+        <p> {{ page.date | date_to_string }} - {{ page.author }} </p>
+    </div>
+
+    <div id="main">
+        {{ content }}
     </div>
 </div>
+
 
 <div>
     {%- include footer.html -%}
