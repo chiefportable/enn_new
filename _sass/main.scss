@@ -96,3 +96,14 @@ ul li{
 .bg-gray{
     background-color: rgb(245, 244, 244);
 }
+
+#post li{
+    border: 1px solid rgb(216, 216, 216);
+    padding: 9px;
+    margin-left: -26px;
+}
+
+#post li a{
+    text-decoration: none;
+    color: black;
+}

@@ -3,7 +3,7 @@ layout: post
 author: Gifty
 ---
 
-##### 🎣 "Hey, fish enthusiasts! 🐟 Want to learn the art of catfish hatchery? Dive into our teaching catfish hatchery in Winneba, Ghana! 🌍
+"Hey, fish enthusiasts! Want to learn the art of catfish hatchery? Dive into our teaching catfish hatchery in Winneba, Ghana!
 
 
 <img class="my-5 img-fluid" src="/assets/img/learnimg.jpg" width="700px"/>
