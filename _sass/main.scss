@@ -126,3 +126,16 @@ ul li{
 #main p span{
     font-weight: bolder;
 }
+
+.fadein{
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
