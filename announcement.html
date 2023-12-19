@@ -11,11 +11,13 @@ title: Blog
     <h1 class="fw-bold text-center mt-3"> Announcement </h1>
     <ul id="post">
         {% for post in site.posts %}
-            <li class="my-3 p-3 shadow-sm">
-                <a href="{{ post.url}}">
-                    <h4 class="fw-bold"> {{ post.title}}</h4>
-                    <p class="px-5">{{ post.excerpt }}</p>
-                </a>
+            <li class="my-3 p-3 shadow-sm mx-md-5">
+                <div class="mx-md-5">
+                    <a href="{{ post.url}}">
+                        <h4 class="fw-bold"> {{ post.title}}</h4>
+                        <p class="px-5">{{ post.excerpt }}</p>
+                    </a>
+                </div>
             </li>
         {% endfor %}
     </ul>
