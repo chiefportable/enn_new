@@ -2,7 +2,6 @@
 
 *{
     font-family: 'Montserrat', sans-serif;
-    line-height: 140%;
 }
 
 .playsc{
@@ -41,25 +40,11 @@ html,body{
     color: black;
 }
 
-.tipe{
-    color: #f1f1f1;
-    font-weight: 200;
-    text-transform: uppercase;
-  }
-  
-  .wrap {
-    
-    &::after {
-      content: "";
-      border: 1px solid #fff;
-    }
-  }
-
-  .text-deco{
+.text-deco{
     text-decoration: none;
-  }
+}
 
-  .button{
+.button{
     display: inline-flex;
     cursor: pointer;
     text-decoration: none;
@@ -84,11 +69,6 @@ html,body{
     box-shadow: unset;
 }
 
-
-ul li{
-    list-style: none;
-}
-
 #content-container{
     padding: 0 60px;
 }
@@ -101,6 +81,7 @@ ul li{
     border: 1px solid rgb(216, 216, 216);
     padding: 9px;
     margin-left: -26px;
+    list-style: none;
 }
 
 #post li a{
@@ -119,11 +100,11 @@ ul li{
     margin-top: 2rem;
 }
 
-#main p{
+#mainn p{
     line-height: 2.5;
 }
 
-#main p span{
+#mainn p span{
     font-weight: bolder;
 }
 
@@ -138,4 +119,42 @@ ul li{
     to {
         opacity: 1;
     }
+}
+
+.ani{
+    position: relative;
+}
+
+.ani::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .ani:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.aan{
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.bounce{
+    animation-name: bounce;
+    animation-timing-function: linear;
+}
+
+@keyframes bounce{
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
 }
