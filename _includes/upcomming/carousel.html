@@ -1,15 +1,15 @@
-<div class="p-5 my-5">
+<div class="p-3 my-5">
     <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 2"></button>
         </div>
 
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
-            <img src="/assets/img/learnimg.jpg" class="d-block w-100 img-fluid" alt="...">
+           <a href="/"> <img src="/assets/img/learnimg.jpg" class="d-block w-100 img-fluid" alt="..."></a>
           </div>
           <div class="carousel-item" data-bs-interval="5000">
             <img src="/assets/img/learnimg.jpg" class="d-block w-100 img-fluid" alt="...">
@@ -21,5 +21,20 @@
             <img src="/assets/img/landimg.jpg" class="d-block w-100 img-fluid" alt="...">
           </div>
         </div>
+
+        <!-- <div class="carousel-inner">
+          <ul id="carousel-id">
+            {%- for post in site.posts -%}
+              <li>
+                <div class="carousel-item active" data-bs-interval="5000">
+                  <img src="/assets/img/carousel.jpg" class="img-fluid w-100" alt="">
+                  <div class="carousel-caption">
+                    <h1 class="fw-bold display-4 ">{{ post.title }}</h1>
+                  </div>
+                </div>
+              </li>
+            {%- endfor -%}
+          </ul>
+        </div> -->
     </div>
 </div>

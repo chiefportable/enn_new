@@ -89,7 +89,7 @@ html,body{
     color: black;
 }
 
-#header, #main{
+#header, #mainn{
     display: flex;
     flex-direction: column;
     margin-inline: auto;
@@ -189,4 +189,8 @@ html,body{
 
 .caro{
     display: block;
+}
+
+#carousel-id li{
+    list-style: none;
 }
