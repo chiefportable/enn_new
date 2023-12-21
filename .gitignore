@@ -5,6 +5,5 @@ _site
 #ignore node modules
 node_modules
 
-test.html
-
-_includes/upcomming
+.env
+.env.example

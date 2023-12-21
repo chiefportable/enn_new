@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
     // get all the elements with class "typer"
     var elements = $('.typer');

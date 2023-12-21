@@ -51,7 +51,7 @@ html,body{
     padding: .75rem 1.5rem;
     font-weight: 500;
     line-height: 1;
-    color: #0f0f0f;
+    color: #ffff;
     transition: all .2s ease-in-out;
     background-color: #c92020;
     border: 1px solid #0f0f0f;
@@ -74,7 +74,7 @@ html,body{
 }
 
 .bg-gray{
-    background-color: rgb(245, 244, 244);
+    background-color: rgb(248, 175, 175);
 }
 
 #post li{
@@ -112,6 +112,34 @@ html,body{
     animation: fadeIn 0.5s ease-in;
 }
 
+.addcolor{
+    background-color: red;
+    color: white;
+    animation: fadeIn 0.5s ease-in;
+}
+
+.first{
+    color: white;
+}
+
+.second{
+    color: white;
+}
+
+.addFirst{
+    animation: fadeIn 0.5s ease-in;
+    color: black;
+}
+
+.addSecond{
+    animation: fadeIn 0.5s ease-in;
+    color: black;
+}
+
+.fade-in-item{
+    animation: fadeIn 1s ease-in-out;
+}
+
 @keyframes fadeIn{
     from {
         opacity: 0;
@@ -133,7 +161,7 @@ html,body{
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #0087ca;
+    background-color: #d10a0a;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
@@ -157,4 +185,8 @@ html,body{
     0%   { transform: translateY(0); }
     50%  { transform: translateY(-10px); }
     100% { transform: translateY(0); }
+}
+
+.caro{
+    display: block;
 }
