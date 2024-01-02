@@ -14,7 +14,7 @@ setTimeout(() => {
 }, 1000);
 
 
-const navbar = document.querySelector(".navbar");
+const navbar = document.querySelector(".navar");
 
 const sticky = navbar.offsetTop;
 
