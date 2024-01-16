@@ -7,9 +7,13 @@ title: Announcement
     {%- include upcomming/navbar.html -%}
 </div>
 
-<div class="container text-center">
-    <h1 class="fw-bold text-center mt-3"> Announcement </h1>
-    <ul id="post">
+
+<div>
+    <div class="text-center">
+        <h1 class="fw-bold mt-3"> Announcement </h1>
+    </div>
+
+    <ul id="post" class="text-center">
         {% for post in site.posts %}
             <li class="my-3 p-3 shadow-sm mx-md-5">
                 <div class="mx-md-5">
