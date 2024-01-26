@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Gifty Hola Afetsi
+title: "Want To Learn The Art Of Catfish Hatchery"
 ---
 
 Hey, fish enthusiasts! Want to learn the art of catfish hatchery? Dive into our teaching catfish hatchery in Winneba, Ghana!
