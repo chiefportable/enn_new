@@ -6,7 +6,6 @@ title: "Want To Learn The Art Of Catfish Hatchery"
 
 Hey, fish enthusiasts! Want to learn the art of catfish hatchery? Dive into our teaching catfish hatchery in Winneba, Ghana!
 
-
 <img class="my-2 img-fluid" src="/assets/img/learnimg.jpg"/>
 
 
